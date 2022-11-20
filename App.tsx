@@ -10,7 +10,7 @@ const Stack = createNativeStackNavigator()
 const App = () => {
   return (
     <RecoilRoot>
-      <RecoilNexus />
+      <RecoilNexus/>
       <NavigationContainer>
         <Stack.Navigator>
           <Stack.Screen name="Home" component={HomeScreen}/>
