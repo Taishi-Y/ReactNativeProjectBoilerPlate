@@ -14,6 +14,8 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-RNProjectBoilerPlate-RNProjectBoilerPlateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNProjectBoilerPlate-RNProjectBoilerPlateTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A788FD75A01834B940ECADAE /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57ACA9BE5D818C05DBFDB04 /* ExpoModulesProvider.swift */; };
+		B79967FC5EFB7C705DA0F7FC /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E9DB0C2030D569F91885A /* ExpoModulesProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +39,14 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNProjectBoilerPlate/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNProjectBoilerPlate/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNProjectBoilerPlate-RNProjectBoilerPlateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNProjectBoilerPlate-RNProjectBoilerPlateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		368E9DB0C2030D569F91885A /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-RNProjectBoilerPlate/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-RNProjectBoilerPlate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNProjectBoilerPlate.debug.xcconfig"; path = "Target Support Files/Pods-RNProjectBoilerPlate/Pods-RNProjectBoilerPlate.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-RNProjectBoilerPlate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNProjectBoilerPlate.release.xcconfig"; path = "Target Support Files/Pods-RNProjectBoilerPlate/Pods-RNProjectBoilerPlate.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-RNProjectBoilerPlate-RNProjectBoilerPlateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNProjectBoilerPlate-RNProjectBoilerPlateTests.debug.xcconfig"; path = "Target Support Files/Pods-RNProjectBoilerPlate-RNProjectBoilerPlateTests/Pods-RNProjectBoilerPlate-RNProjectBoilerPlateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-RNProjectBoilerPlate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNProjectBoilerPlate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNProjectBoilerPlate/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-RNProjectBoilerPlate-RNProjectBoilerPlateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNProjectBoilerPlate-RNProjectBoilerPlateTests.release.xcconfig"; path = "Target Support Files/Pods-RNProjectBoilerPlate-RNProjectBoilerPlateTests/Pods-RNProjectBoilerPlate-RNProjectBoilerPlateTests.release.xcconfig"; sourceTree = "<group>"; };
+		A57ACA9BE5D818C05DBFDB04 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-RNProjectBoilerPlate-RNProjectBoilerPlateTests/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -122,6 +126,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				CB9E1DE2B9595ECBE76DE8C3 /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -137,6 +142,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B862247E860585A0B1A9E3CA /* RNProjectBoilerPlateTests */ = {
+			isa = PBXGroup;
+			children = (
+				A57ACA9BE5D818C05DBFDB04 /* ExpoModulesProvider.swift */,
+			);
+			name = RNProjectBoilerPlateTests;
+			sourceTree = "<group>";
+		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +159,23 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-RNProjectBoilerPlate-RNProjectBoilerPlateTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB9E1DE2B9595ECBE76DE8C3 /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				DA31ED81D0FE871795189C50 /* RNProjectBoilerPlate */,
+				B862247E860585A0B1A9E3CA /* RNProjectBoilerPlateTests */,
+			);
+			name = ExpoModulesProviders;
+			sourceTree = "<group>";
+		};
+		DA31ED81D0FE871795189C50 /* RNProjectBoilerPlate */ = {
+			isa = PBXGroup;
+			children = (
+				368E9DB0C2030D569F91885A /* ExpoModulesProvider.swift */,
+			);
+			name = RNProjectBoilerPlate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -405,6 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E356F31AD99517003FC87E /* RNProjectBoilerPlateTests.m in Sources */,
+				A788FD75A01834B940ECADAE /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +445,7 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				B79967FC5EFB7C705DA0F7FC /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +470,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = RNProjectBoilerPlateTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,6 +481,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNProjectBoilerPlate.app/RNProjectBoilerPlate";
@@ -462,7 +495,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = RNProjectBoilerPlateTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +506,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNProjectBoilerPlate.app/RNProjectBoilerPlate";
@@ -497,6 +531,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RNProjectBoilerPlate;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -522,6 +557,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RNProjectBoilerPlate;
 				SWIFT_VERSION = 5.0;
@@ -578,7 +614,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -643,7 +679,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
